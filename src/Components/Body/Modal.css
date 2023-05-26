@@ -1,0 +1,76 @@
+.modal-container {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    /* background: rgba(0, 0, 0, 0.494); */
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.modal-backdrop {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    /* background: linear-gradient(to right, #780206, #061161); */
+    background-color: #660245;
+    background-image: linear-gradient(
+        300deg,
+        #660245bd 20%,
+        #6d44bfb4 43%,
+        #040464a8 81%
+    );
+    /* background: linear-gradient(top,rgb(126,198,234)0%,rgb(70,179,234)45%,rgb(3,135,201)100%); */
+    background-size: 175% 175%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.btn-del {
+    padding: 0 0.4rem;
+}
+
+.modal-box {
+    background-color: aliceblue;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    width: 65%;
+    align-items: center;
+    gap: 1rem;
+    border: solid 1px black;
+    border-radius: 1rem;
+}
+
+.close-btn {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+.form-container {
+    width: 90%;
+}
+
+.fa-xmark {
+    cursor: pointer;
+}

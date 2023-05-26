@@ -1,0 +1,93 @@
+{
+  "employee": [
+    {
+      "id": 1,
+      "name": "Fardeen",
+      "username": "cr1nge",
+      "email": "alamf",
+      "address": {
+        "city": "New Delhi"
+      },
+      "company": {
+        "name": "Global Logic"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Apra Jain",
+      "email": "aprajain@gmail.com",
+      "address": {
+        "city": "Lucknow"
+      },
+      "company": {
+        "name": "RCRM"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Harsh Harit",
+      "email": "harshharit@gmail.com",
+      "address": {
+        "city": "Meerut"
+      },
+      "company": {
+        "name": "Jackson Group"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Harsh Verma",
+      "email": "vermaharsh@gmail.com",
+      "address": {
+        "city": "Meerut"
+      },
+      "company": {
+        "name": "Accenture"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Parminder Singh",
+      "email": "parminder@gmail.com",
+      "address": {
+        "city": "Chandigarh"
+      },
+      "company": {
+        "name": "ZsAssociates"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Vansh",
+      "email": "vansh@gmail.com",
+      "address": {
+        "city": "New Delhi"
+      },
+      "company": {
+        "name": "Deloitte"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Kapil",
+      "email": "kapil19@gmail.com",
+      "address": {
+        "city": "Chandigarh"
+      },
+      "company": {
+        "name": "TestEra"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Sumer Singh",
+      "email": "sumer@gmail.com",
+      "address": {
+        "city": "Toronto"
+      },
+      "company": {
+        "name": "Uni"
+      }
+    }
+  ]
+}

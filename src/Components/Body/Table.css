@@ -1,0 +1,24 @@
+.btn-edit{
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+    /* align-self: flex-end; */
+}
+
+.table-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.table-wrapper{
+    width: 90%;
+}
+
+.add-btn{
+    margin-top: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+

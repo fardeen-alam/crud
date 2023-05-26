@@ -1,0 +1,89 @@
+.navbar-wrapper{
+    overflow-x: hidden;
+    z-index: 1;
+    position: fixed;
+}
+
+.navbar-container{
+    height: 10vh;
+    width: 100vw;
+    background-color: #0B2447;
+    display: flex;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+.logo-container{
+    flex: 30%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.logo{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.3rem;
+}
+
+img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.links-container{
+    flex: 70%;
+    display: flex;
+    justify-content: end;
+    margin-right: 5rem;
+    gap: 3rem;
+    align-items: center;
+    color: white;
+}
+
+.link1{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.link2{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.accordian{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.Link{
+    cursor: pointer;
+}
+
+.link:hover{
+    overflow-y: hidden;
+}
+
+.arrow-btn{
+    cursor: pointer;
+}
+
+.active{
+    background-color: #A5D7E8;
+    color: #0B2447;
+    border: solid 1px #0B2447;
+    border-radius: 2px;
+    transition: background-color 0.3s ease-in-out;
+}

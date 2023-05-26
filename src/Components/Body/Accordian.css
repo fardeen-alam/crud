@@ -1,0 +1,67 @@
+.accordian-container{
+    display: none;
+}
+
+.accordian-container--active{
+    background-color: #072248df;
+    width: 100vw;
+    height: 25vh;
+    z-index: 1;
+    color: white;
+    overflow: hidden;
+    position: fixed;
+    display: flex;
+    gap: 15rem;
+    justify-content: center;
+}
+
+.services-heading{
+    background-color: #576CBC;
+    margin-top: 0.5rem;
+    font-size: larger;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 0.7rem;
+}
+
+li{
+    list-style: none;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+}
+
+li:hover{
+    background-color: #A5D7E8;
+    cursor: pointer;
+    color: black;
+}
+
+.technologies-heading{
+    background-color: #576CBC;
+    margin-top: 0.5rem;
+    font-size: larger;
+    padding: 5px;
+    cursor: pointer;
+    margin-bottom: 0.7rem;
+}
+
+.services-heading:hover{
+    background-color: #6d7dbe;
+}
+.technologies-heading:hover{
+    background-color: #6d7dbe;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+p{
+    margin: 0;
+    padding: 0;
+    margin-left: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+
